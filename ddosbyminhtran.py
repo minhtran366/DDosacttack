@@ -1,11 +1,4 @@
-from os import system, name
 
-from urllib.parse import urlparse
-from requests.cookies import RequestsCookieJar
-import undetected_chromedriver as webdriver
-from sys import stdout
-from colorama import Fore, init
-from csv import writer
 from pystyle import Add, Center, Anime, Colors, Colorate, Write, System
 from calendar import weekheader
 from time import sleep
@@ -16,11 +9,10 @@ import requests
 import os, sys, requests, random
 import time
 from random import choice, randint, shuffle
-from colorama import Fore, init
 try:
   from pystyle import Center, Anime, Colors, Colorate
 except:
-  os.system('pip install pystyle')  
+  os.system('pip install pystyle')
 
 def logo():
     log="""
